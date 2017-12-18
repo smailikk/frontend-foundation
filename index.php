@@ -182,8 +182,8 @@
         </div>
     </footer>
 </div>
-
-          </form>
+    </form>
+      </footer>
         </div>
 
     <script src="js/vendor/jquery.js"></script>
