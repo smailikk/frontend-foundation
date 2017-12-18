@@ -11,12 +11,6 @@
   <body>
 
     <!-- Start Top Bar -->
-      <div class="top-bar">
-      <div class="top-bar-left">
-        <ul class="menu">
-          <li class="menu-text"><a href="#">Moto.ru</a></li>
-        </ul>
-      </div>
    <nav class="top-bar topbar-responsive">
   <div class="top-bar-title">
     <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
