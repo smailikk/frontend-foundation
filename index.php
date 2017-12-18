@@ -11,363 +11,180 @@
   <body>
 
     <!-- Start Top Bar -->
-    <div class="top-bar">
-      <div class="top-bar-left">
-        <ul class="menu">
-          <li class="menu-text"><a href="#">Moto.ru</a></li>
-        </ul>
-      </div>
-      <div class="top-bar-right">
-        <ul class="menu">
-          <input type="search" name="search" placeholder="Search.." class="animated-search-form">
-          <li><a href="file:///C:/Users/Acer/Downloads/smailik-master/smailik-master/log-n-load/index.html">Войти</a></li>
-          <li><a href="file:///C:/Users/Acer/Downloads/smailik-master/smailik-master/sign-up-login-form/index.html">Регистрация</a></li>
-        </ul>
-      </div>
-    </div>
-    <!-- End Top Bar -->
-
-<div class="md-tabs">
-  <div class="mobile-nav-bar title-bar">
-    <div class="title-bar-left">
-    </div>
-    <div class="title-bar-center">
-      <span class="title-bar-text">Автомобили</span>
-    </div>
-    <div class="title-bar-right">
+   <nav class="top-bar topbar-responsive">
+  <div class="top-bar-title">
+    <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
+      <button class="menu-icon" type="button" data-toggle></button>
+    </span>
+    <a class="topbar-responsive-logo" href="#"><strong>Moto.ru</strong></a>
+  </div>
+  <div id="topbar-responsive" class="topbar-responsive-links">
+    <div class="top-bar-right">
+      <ul class="menu simple vertical medium-horizontal">
+        <li><a href="#">Главная</a></li>
+        <li>
+          <button type="button" class="button hollow topbar-responsive-button"><a href="https://goo.gl/forms/aWLRy3HIHkeLR58O2">Подать объявление</a></button>
+        </li>
+      </ul>
     </div>
   </div>
+</nav>
 
-  <ul class="tabs" data-responsive-accordion-tabs="tabs small-accordion medium-tabs large-tabs" id="collapsing-tabs" data-allow-all-closed="true" data-multi-expand="true">
-    <li class="tabs-title is-active"><a href="#panel1c" aria-selected="true">Запчасти и аксессуары</a></li>
-    <li class="tabs-title"><a href="#panel2c">Грузовики и спецтехника </a></li>
-    <li class="tabs-title"><a href="#panel3c">Легковые автомобили</a></li>
-    <li class="tabs-title"><a href="#panel4c">Мотоциклы и мототехника</a></li>
-    <div class="slide"></div>
-  </ul>
 
-  <div class="tabs-content" data-tabs-content="collapsing-tabs">
-    <div class="tabs-panel is-active" id="panel1c">
-      <h4><a href="#">Запчасти</a></h4>
-      <h4><a href="#">Аксессуары</a></h4>
-      <h4><a href="#">Автокосметика и автохимия</a></h4>
-      <h4><a href="#">Аудио- и видеотехника</a></h4>
-    </div>
-    <div class="tabs-panel" id="panel2c">
-      <h4><a href="#">Автобусы</a></h4>
-      <h4><a href="#">Грузовики</a></h4>
-      <h4><a href="#">Прицепы</a></h4>
-      <h4><a href="#">Экскаваторы</a></h4>
-    </div>
-    <div class="tabs-panel" id="panel3c">
-      <h4><a href="#">Audi</a></h4>
-      <h4><a href="#">BMW</a></h4>
-      <h4><a href="#">Mercedes-Benz</a></h4>
-      <h4><a href="#">Volvo</a></h4>
-    </div>
-    <div class="tabs-panel" id="panel4c">
-      <h4><a href="#">Вездеходы</a></h4>
-      <h4><a href="#">Квадроциклы</a></h4>
-      <h4><a href="#">Снегоходы</a></h4>
-      <h4><a href="#">Мотоциклы</a></h4>
-    </div>
+     <div class="fullscreen-image-slider">
+  <div class="orbit" role="region" aria-label="FullScreen Pictures" data-orbit>
+    <ul class="orbit-container">
+      <button class="orbit-previous">
+        <span class="show-for-sr">Previous Slide</span>
+        <span class="nav fa fa-chevron-left fa-3x"></span>
+      </button>
+      <button class="orbit-next">
+        <span class="show-for-sr">Next Slide</span>
+        <span class="nav fa fa-chevron-right fa-3x"></span>
+      </button>
+      <li class="is-active orbit-slide">
+        <img class="orbit-image" src="https://izobrazhenie.net/photo/0-0/2759_275141962.jpg" alt="Space">
+        <figcaption class="orbit-caption">
+          <h1>Продажа автомобилей <br>в Ульяновске </h1>
+        </figcaption>
+      </li>
+      <li class="orbit-slide">
+        <img class="orbit-image" src="http://www.hdcarwallpapers.com/download/2011_infiniti_m-1280x800.jpg" alt="Space">
+        <figcaption class="orbit-caption">
+          <h1>Продажа автомобилей <br>в Ульяновске </h1>
+        </figcaption>
+      </li>
+      <li class="orbit-slide">
+        <img class="orbit-image" src="https://im0-tub-ru.yandex.net/i?id=37ec9638b543f910fd53b6c39cc23480&n=13" alt="Space">
+        <figcaption class="orbit-caption">
+         <h1>Продажа автомобилей <br>в Ульяновске </h1>
+        </figcaption>
+      </li>
+    </ul>
   </div>
 </div>
-
-    <div class="grid-container">
-      <div class="grid-x grid-padding-x">
-        <div class="large-12 cell">
-          <center><h1>Продажа автомобилей в Ульяновске</h1></center>
-        </div>
-      </div>
-
-                <div class="card card-product-hover">
-  <hr />
-  <img src="https://www.auto-mgn.ru/resources/images/upload/000000192664bc1a1a35_990x550_C.jpg" alt="picture of admin dashboard" />
-  <div class="card-product-hover-icons">
-    <a href="#"><i class="fa fa-shopping-cart"></i></a>
-    <a href="#"><i class="fa fa-star-o"></i></a>
-    <a href="#"><i class="fa fa-share-alt"></i></a>
-  </div>
-  <div class="card-product-hover-details">
-    <h3 class="card-product-hover-title">Audi A7 Sportback</h3>
-    <span class="card-product-hover-price">2 000 000 млн рублей </span>
-  </div>
-</div>
-
-      <div class="grid-x grid-padding-x">
-        <div class="large-12 cell">
-          <div class="callout">
-            <h3>Свежие объявления авто</h3>
-            <div class="column small-12 large-6">
-          <h6 class="product-color-title">Сортировать</h6>
-            <form class="product-option-selection">
-                <select>
-                  <option value="apollo">По умолчанию</option>
-                  <option value="husker">По дате</option>
-                  <option value="starbuck">Дешевле</option>
-                  <option value="hotdog">Дороже</option>
-                </select>
-              </label>
-            </form>
-        </div>
-
-    <div class="ecommerce-product-slider orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
-        <div class="row small-up-2 medium-up-4 large-up-5 align-center">
-            <div class="column">
-            <div class="product-card">
-        <div class="product-card-thumbnail">
-      <a href="#"><img src="https://images.toyota-europe.com/ru/vehicle/landcruiser100/02d3361a-1e4d-46b5-a053-8423f25d129f/width/555/height/277/scale-mode/1/padding/0/background-colour/fff/image-quality/70/day-exterior-27_070.jpg"/></a>
-    </div>
-            <p><a href="http://zurb.com/university/code-skills">Land Cruiser 200</a><br /><p>От 3 799 000 млн рублей</p></p>
-            <h4>Комментарий продавца</h4>
-            <p>Автосалон EVIAS - это новые автомобили от официальных дилеров 
-            Гарантия действует по всей территории РФ 
-            В наличие имеются другие цвета и комплектации </p>
-            <h4>Комплектация</h4>
-            <p>Комплектация: EXECUTIVE BLACK
-            Гидро-пневмоподвеска с регулировкой клиренса
-            Адаптивная система регулировки жесткости подвески
-            Затемненные светодиодные головные фары
-            Светодиодные противотуманные фары
-            Рейлинги с элементами матового хрома
-            Люк с электроприводом
-            Боковые подножки с подсветкой 
-            Шины 285/50 R20
-            Накладки на передний и задний бампер 
-            Эмблема специальной серии
-            Решетка радиатора частично окрашенная в цвет кузова 
-            Аудиосистема премиум класса JBL с 14 динамиками (CD/MP3/WMA/DVD)
-            USB/AUX
-            Bluetooth®
-            Адаптивный круиз-контроль
-            9” цветной дисплей с сенсорным управлением
-            Навигационная система на русском языке
-            Электрообогрев лобового стекла
-            Электрообогрев руля</p>
-
-                <div class="ecommerce-product-slider orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
-    <div class="row small-up-2 medium-up-4 large-up-5 align-center">
-        <div class="column">
-            <div class="product-card">
-            <div class="product-card-thumbnail">
-      <a href="#"><img src="http://altera-auto.ru/upload/iblock/49e/49e07fd4b66c5d7c1ae5845dd33edefc.png"/></a>
-    </div>
-            <p><a href="http://zurb.com/university/code-skills">CHEVROLET ORLANDO</a><br /> <p> Механика от 642 000 рублей</p></p>
-            <h4>Комментарий продавца</h4>
-
-            <p>Спорт пакет AMG, панорамная крыша, спортивные сидения, разно широкие диски AMG, ЭКО режим. Не бит не крашен все в родной краске. В эксплуатации с 2015года.</p>
-            <h4>Комплектация</h4>
-             <h5>Безопасность</h5>
-           Антиблокировочная система (ABS)
-            Подушка безопасности водителя
-            Подушки безопасности боковые
-            Парктроник
-            <h5>Обзор</h5>
-            Электропривод зеркал
-            Датчик света
-            Обогрев зеркал
-            Противотуманные фары
-            Датчик дождя
-            <h5>Комфорт</h5>
-            Круиз-контроль
-                <div class="ecommerce-product-slider orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
-      <div class="row small-up-2 medium-up-4 large-up-5 align-center">
-             <div class="column">
-             <div class="product-card">
-         <div class="product-card-thumbnail">
-       <a href="#"><img src="https://www.bmw.ru/content/dam/bmw/marketRU/bmw_ru/all-models/x-series/x1/2015/model-card/BMW-X1_ModelCard.png/_jcr_content/renditions/cq5dam.resized.img.585.low.time1456835645840.png"/></a>
-      </div>
-            <p><a href="https://www.bmw.ru/ru/ssl/configurator.html#/JG11/S02TF/F48X/esl/new/">BMW 1 СЕРИИ</a><br /> <p>1 500 000 млн рублей</p></p>
-            <h4>Комментарий продавца</h4>
-            <p>Автомобиль в хорошем состоянии, немецкая сборка. Комплект летних и зимних шин. Своевременное обслуживание. Непрокуренный салон.</p>
-            <h4>Комплектация</h4>
-
-            <h5>Безопасность</h5>
-            Антиблокировочная система (ABS)
-            Парктроник
-            Блокировка замков задних дверей
-            <h5>Обзор</h5>
-            Электропривод зеркал
-            Электрообогрев лобового стекла
-            <h5>Комфорт</h5>
-            Прикуриватель и пепельница
-            Бортовой компьютер
-            Кондиционер
-            Сиденье водителя: ручная регулировка
-            Регулировка сидений водителя по высоте
-            Парктроник задний
-            Сиденье пассажира: ручная регулировка
-            Регулировка сидений пассажира по высоте
-            Система «старт-стоп»
-            Датчик давления в шинах
-            Регулировка руля по высоте и вылету
-            Усилитель руля
-
-       </div>
-     </div>
-   </div>
- </div>
-
-
-          <hr />
-
-          <h3>Подать объявление</h3>
-          <form>
-            <div class="grid-x grid-padding-x">
-              <div class="large-4 medium-4 cell">
-                <label>Марка</label>
-                <input type="text" placeholder="Ввести" />
+<hr />
+        <div class="masonry-css">
+          <div class="masonry-css-item">
+            <img src="https://images.toyota-europe.com/ru/vehicle/landcruiser100/02d3361a-1e4d-46b5-a053-8423f25d129f/width/555/height/277/scale-mode/1/padding/0/background-colour/fff/image-quality/70/day-exterior-27_070.jpg" class="" height="" width="" alt="">
+          </div>
+              <div class="masonry-css-item">
+                <div class="callout">Land Cruiser 200 <br>
+                От 3 799 000 млн рублей</div>
               </div>
-            </div>
-             <div class="grid-x grid-padding-x">
-              <div class="large-4 medium-4 cell">
-                <label>Модель</label>
-                <input type="text" placeholder="Ввести" />
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-4 medium-4 cell">
-                <label>Год выпуска</label>
-                <input type="text" placeholder="Ввести" />
-              </div>
-              <div class="large-4 medium-4 cell">
-                <label>Пробег</label>
-                <input type="text" placeholder="Ввести" />
-              </div>
-             
-            <div class="grid-x grid-padding-x">
-              <div class="large-12 cell">
-                <label>Коробка передач</label>
-                <select>
-                  <option>Выбрать</option>
-                  <option value="husker">Механика</option>
-                  <option value="starbuck">Автомат</option>
-                  <option value="hotdog">Робот</option>
-                </select>
-              </div>
-            </div>
-             <div class="large-4 medium-4 cell">
-                <label>Телефон</label>
-                <input type="text" placeholder="Ввести" />
-              </div>
-         <div class="large-4 medium-4 cell">
-                <div class="grid-x">
-                  <label>Почта</label>
-                  <div class="input-group">
-                    <input type="text" placeholder="Ввести" class="input-group-field" />
-                    <span class="input-group-label">.com</span>
+                <div class="masonry-css-item">
+                  <img src="http://altera-auto.ru/upload/iblock/49e/49e07fd4b66c5d7c1ae5845dd33edefc.png" class="" height="" width="" alt="">
+                </div>
+                    <div class="masonry-css-item">
+                    <div class="callout">Chevrolet orlando <br>
+                Механика от 642 000 рублей </div>
                   </div>
+                      <div class="masonry-css-item">
+                        <img src="https://www.bmw.ru/content/dam/bmw/marketRU/bmw_ru/all-models/x-series/x1/2015/model-card/BMW-X1_ModelCard.png/_jcr_content/renditions/cq5dam.resized.img.585.low.time1456835645840.png" class="" height="" width="" alt="">
+                      </div>
+                          <div class="masonry-css-item">
+                        <div class="callout"> BMW 1 <br>
+                    1 500 000 млн рублей </div>
+                      </div>
+                        <div class="masonry-css-item">
+                          <img src="https://im0-tub-ru.yandex.net/i?id=5373582d236cdc3417ea190838fbff2e&n=13" class="" height="" width="" alt="">
+                        </div>
+                      <div class="masonry-css-item">
+                    <div class="callout"> INFINITI QX50  <br>
+                            2 215 000 рублей </div>
+                  </div>
+                <div class="masonry-css-item">
+                  <img src="http://www.mazda.ru/layout_static/color_block/model/m3/sedan/arctic.png" class="" height="" width="" alt="">
+                </div>
+                   <div class="masonry-css-item">
+                  <div class="callout">Mazda3 <br>
+                   1 642 000 рублей </div>
                 </div>
               </div>
-            </div>
-
-        <div class="large-4 medium-4 cell">
-          <button type="button" class="primary button expanded search-button">
-                Подать
-              </button>
-              <hr />
-            <div class="translucent-form-overlay">
-            <form>
-              <h3>Поиск</h3>
-              <div class="row columns">
-                <label>Марка
-                  <select name="status" type="text" >
-                    <option>Выбрать</option>
-                    <option value="building">Иномарка</option>
-                    <option value="office">Отечественные</option>
-                    <option value="building">Audi</option>
-                    <option value="building">BMW</option>
-                    <option value="building">Lexus</option>
-                    <option value="building">Mercedes-Benz</option>
-                  </select>
-                </label>
-              </div>
-              <div class="row columns">
-                <label>Тип автомобиля
-                  <select name="status" type="text">
-                    <option>Выбрать</option>
-                    <option value="building">С пробегом</option>
-                    <option value="rent">Новый</option>
-                  </select>
-                </label>
-              </div>
-              <div class="row columns">
-                <label>Тип кузова
-                  <select name="status" type="text">
-                    <option>Выбрать</option>
-                    <option value="building">Седан</option>
-                    <option value="office">Хетчбэк</option>
-                    <option value="building">Универсал</option>
-                    <option value="building">Внедорожник</option>
-                  </select>
-                </label>
-              </div>
-              <div class="row columns">
-                <label>Коробка передач
-                  <select name="status" type="text">
-                    <option>Выбрать</option>
-                    <option value="building">Механика</option>
-                    <option value="office">Автомат</option>
-                    <option value="building">Робот</option>
-                  </select>
-                </label>
-              </div>
-              <div class="row">
-                <label class="columns small-12">Сумма</label>
-                <div class="columns small-6">
-                  <input type="number" min="0" name="min" placeholder="Цена от">
+              <div class="masonry-css">
+                <div class="masonry-css-item">
+                  <img src="http://topgir.com.ua/wp-content/uploads/2016/03/71521_Honda_Clarity_Fuel_Cell.jpg" class="" height="" width="" alt="">
                 </div>
-                   <div class="columns small-6">
-                  <input type="number" min="0" name="max" placeholder="Цена до">
+                      <div class="masonry-css-item">
+                        <div class="callout">Honda Clarity Fuel Cell <br>
+                        От 1 799 000 млн рублей</div>
+                      </div>
+                      <div class="masonry-css-item">
+                        <img src="https://www.volkswagen.ru/content/dam/vw-ngw/vw_pkw/importers/ru/models/tiguan-new/cutouts/Trendline_1920x726.png/jcr:content/renditions/original.transform/medplus/img.png" class="" height="" width="" alt="">
+                      </div>
+                  <div class="masonry-css-item">
+                  <div class="callout">Volkswagen Tiguan <br>
+               от 1 342 000 рублей </div>
                 </div>
-              </div>
-              <button type="button" class="primary button expanded search-button">
-                Найти
-              </button>
-           </form>
-           </div>
+                <div class="masonry-css-item">
+                  <img src="https://im0-tub-ru.yandex.net/i?id=225c6a91bb22ca1c01e3c8e5ebc9b5a5&n=13" class="" height="" width="" alt="">
+                </div>
+            <div class="masonry-css-item">
+          <div class="callout"> Opel Insignia <br>
+            от 2 500 000 млн рублей </div>
           </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="three-column-footer-contact-form-container">
-  <footer class="three-column-footer-contact-form" data-equalizer data-equalize-by-row="true">
-    <div class="footer-left" data-equalizer-watch>
-      <div class="baseline">
-        <div class="contact-details">
-          <h6>© 2002—2017 Moto.ru  (Ульяновская область)</h6>
-          <p><i class="fa fa-phone fa-lg" aria-hidden="true"></i> Реклама на сайте. </p>
-          <p><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> Техподдержка. </a></p>
-          <p><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i> Авто Ульяновск. </p>
+        <div class="masonry-css-item">
+          <img src="http://www.fordeumedia-a.ford.com/nas/gforcenaslive/rus/00b/yyb/images/resize618xrus00byybczbsbj(a)(a)hzn_1_0.png" class="" height="" width="" alt="">
         </div>
-        <div class="newsletter">
-          <div class="input-group">
-            <h5>Авто.мото.ру: всё об автомобилях</h5>
+              <div class="masonry-css-item">
+            <div class="callout"> FORD EXPLORER  <br>
+         от 2 479 000 руб. </div>
           </div>
-          <p><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i> Продажа автомобилей в Ульяновске – частные объявления, автосалоны Ульяновска, авторынки Ульяновска. </p>
-        </div>
+
+          <div class="masonry-css-item">
+            <img src="http://citroen-samavto.ru/upload/10503042373104231.png" class="" height="" width="" alt="">
+          </div>
+
+              <div class="masonry-css-item">
+            <div class="callout">КОМПЛЕКТАЦИИ НОВЫЙ C4 СЕДАН <br>
+             ОТ 999 000 РУБ. </div>
+          </div>
       </div>
-     </div>
-    <div class="footer-right" data-equalizer-watch>
-      <div class="baseline">
-        <img class="thumbnail" src="http://sferareklama.ru/uploads/smi/31feafa7c108370f2aa8i.jpg">
-        <h5>Контакты:</h5>
-        <h6>тел: +7902 213 05 54</h6>
-        <h6>тел: 8 842 555 55 55</h6>
-        <h5>Адрес:</h5>
-        <h6>Московское шоссе 129А</h6>
-        <div class="social">
-          <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
-          <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
-          <i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i>
-          <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-        </div>
+
+      <hr />
+          <div id="engadget-footer-sitemap-container">
+        <footer id="engadget-footer-sitemap">
+          <div class="links">
+          </div>
+        </footer>
       </div>
-    </div>
-  </footer>
+      <div id="engadget-footer-social-container">
+          <footer id="engadget-footer-social">
+              <div class="footer-left">
+                  <div class="newsletter">
+         <img class="thumbnail" src="http://sferareklama.ru/uploads/smi/31feafa7c108370f2aa8i.jpg">
+              </div>
+             <p>© 2002—2017 Moto.ru (Ульяновская область)
+            Реклама на сайте.
+            Техподдержка.
+            Авто Ульяновск.
+            Авто.мото.ру: всё об автомобилях
+            Продажа автомобилей в Ульяновске – частные объявления, автосалоны Ульяновска, авторынки Ульяновска.</p>
+      </footer>
 </div>
+<div id="engadget-footer-contact-details-container">
+    <footer id="engadget-footer-contact-details">
+        <div class="footer-left">
+            <div class="contact-details">
+                    <h5>Контакты:</h5>
+                    <h6>тел: +7902 213 05 54</h6>
+                    <h6>тел: 8 842 555 55 55</h6>
+                    <h5>Адрес:</h5>
+                    <h6>Московское шоссе 129А</h6>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-right">
+            <ul class="menu align-right">
+                <li><a href="#">В начало</a></li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+          </form>
+        </div>
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
